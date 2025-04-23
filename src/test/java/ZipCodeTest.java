@@ -26,6 +26,6 @@ public class ZipCodeTest {
         String actualErrorMessage = browser.findElement(By.className("error_message")).getText();
 
         Assert.assertEquals(actualErrorMessage, "Oops, error on page. ZIP code should have 5 digits");
-        browser.quit();
+        browser.quit(); //
     }
 }
