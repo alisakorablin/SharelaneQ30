@@ -11,7 +11,7 @@ public class ShoppingCartTest {
 
     @Test
     public void checkDiscount(){
-        SoftAssert softAssert = new SoftAssert();
+        SoftAssert softAssert = new SoftAssert(); //test
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
