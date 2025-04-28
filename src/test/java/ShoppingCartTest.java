@@ -37,7 +37,7 @@ public class ShoppingCartTest {
         softAssert.assertEquals(discount$, "0");
         softAssert.assertEquals(total$, "190");
         driver.quit();
-        softAssert.assertAll(); //ассерт ???? поменять
+        softAssert.assertAll();
     }
 
     @Test
