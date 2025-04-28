@@ -10,7 +10,7 @@ import java.time.Duration;
 public class ShoppingCartTest {
 
     @Test
-    public void checkDiscount(){
+    public void checkDiscountLevel1(){
         SoftAssert softAssert = new SoftAssert();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -41,7 +41,7 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void checkDiscount2(){
+    public void checkDiscountLevel2(){
         SoftAssert softAssert = new SoftAssert();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -72,7 +72,7 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void checkDiscount3(){
+    public void checkDiscountLevel3(){
         SoftAssert softAssert = new SoftAssert();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
