@@ -34,7 +34,6 @@ public class SignUpTest {
         driver.findElement(By.name("password2")).sendKeys("12345");
 
         driver.findElement(By.cssSelector("[value='Register']")).click();
-
         //<span class="error_message">Oops, error on page. ZIP code should have 5 digits</span>
         //String actualErrorMessage = driver.findElement(By.className("error_message")).getText();
         //Assert.assertEquals(actualErrorMessage, "Oops, error on page. ZIP code should have 5 digits");
