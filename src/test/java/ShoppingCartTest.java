@@ -11,7 +11,7 @@ public class ShoppingCartTest {
 
     @Test
     public void checkDiscount(){
-        SoftAssert softAssert = new SoftAssert(); //test
+        SoftAssert softAssert = new SoftAssert();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.sharelane.com/cgi-bin/register.py?page=2&zip_code=12345&first_name=test&" +
@@ -42,7 +42,7 @@ public class ShoppingCartTest {
 
     @Test
     public void checkDiscount2(){
-        SoftAssert softAssert = new SoftAssert(); //test
+        SoftAssert softAssert = new SoftAssert();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.sharelane.com/cgi-bin/register.py?page=2&zip_code=12345&first_name=test&" +
